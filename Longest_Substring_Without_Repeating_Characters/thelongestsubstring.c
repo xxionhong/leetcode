@@ -69,6 +69,7 @@ void hashtable(char *s)
             left = MAX(map[(int)s[right]] + 1, left);
             map[(int)s[right]] = right;
         }
+        
         right += 1;
     }
     temp = right - left;
